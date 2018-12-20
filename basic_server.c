@@ -26,7 +26,7 @@ int main() {
 static void sighandler(int signo){
   if(signo == SIGINT){
     remove("mario");
-    printf("removed wkp\n");
+    printf("\nremoved wkp\n");
     exit(0);
   }
 }
